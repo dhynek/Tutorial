@@ -30,7 +30,7 @@ public class Main {
                 LocalDate.of(2021, 7, 26), BookingType.WORKING, List.of(guestAdela));
 
         Booking booking2 = new Booking(room3, LocalDate.of(2021, 9, 1),
-                LocalDate.of(2021, 9, 14), BookingType.RECREATIONAL, List.of(guestAdela, guestJan));
+                LocalDate.of(2022, 9, 14), BookingType.RECREATIONAL, List.of(guestAdela, guestJan));
 
         BookingList bookingList = new BookingList();
         bookingList.addBooking(booking1);
